@@ -1,0 +1,85 @@
+version: '3.4'
+# https://www.sqlservercentral.com/blogs/sql-server-on-docker-with-new-environment-variables
+# https://medium.com/@joaooliveira889/executing-a-sql-server-docker-container-and-connecting-to-a-net-4b75cae7df32
+# https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-configure-environment-variables?view=sql-server-ver16
+# https://www.freecodecamp.org/news/docker-mount-volume-guide-how-to-mount-a-local-directory/
+services:
+  coredb:
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      - earth
+    environment:
+        SA_PASSWORD: "Sqlserver2019"
+        ACCEPT_EULA: "Y"
+        MSSQL_PID: "Express"
+        # MSSQL_TCP_PORT: "1436"
+    restart: always
+    ports:
+      - "1436:1433"
+    volumes:
+      - ./data:/var/opt/mssql/data
+      - ./log:/var/opt/mssql/log
+      - ./secrets:/var/opt/mssql/secrets
+      - /etc/localtime:/etc/localtime:ro
+      - /usr/share/zoneinfo/Asia/Colombo:/etc/timezone:ro 
+  core.webapi:
+    image: ${DOCKER_REGISTRY-}corewebapi
+    networks:
+      - earth
+    build:
+      context: .
+      dockerfile: Services/Core/Core.WebAPI/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_HTTP_PORTS=8004
+      - ASPNETCORE_URLS=http://+:8004
+      # - "ConnectionStrings:DefaultConnection=Server=coredb;Database=CoreDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+      # - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=coredb;Database=CoreDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True
+  ocelotapigateway:
+    image: ${DOCKER_REGISTRY-}ocelotapigateway
+    networks:
+      - earth
+    build:
+      context: .
+      dockerfile: Services/ApiGateway/Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://+:8003
+      - ASPNETCORE_ENVIRONMENT=Production
+  rabbitmq:
+    image: rabbitmq:3.12.7-management-alpine
+    environment:
+      - RABBITMQ_DEFAULT_PASS=user
+      - RABBITMQ_DEFAULT_USER=mypass
+    networks:
+      - earth
+    ports:
+      # Rabbitmq Instance
+      - '5672:5672'
+      # Rabbitmq Management Interface
+      - '15672:15672'
+
+  hcm.webapi:
+    image: ${DOCKER_REGISTRY-}hcmwebapi
+    networks:
+      - earth
+    build:
+      context: .
+      dockerfile: Services/HCM/HCM.WebAPI/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_HTTP_PORTS=8002
+      - ASPNETCORE_URLS=http://+:8002
+      # - "ConnectionStrings:DefaultConnection=Server=coredb;Database=CoreDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+      - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=192.168.1.209;Database=HCMDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True
+
+
+networks:
+  mars:
+    name: mars
+    driver: bridge
+  earth:
+    name: earth 
+    driver: bridge
+    

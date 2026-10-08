@@ -1,0 +1,7 @@
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\bin\Debug\net8.0\CoverletSourceRootsMapping_Core.xUnit
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.csproj.AssemblyReference.cache
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.AssemblyInfoInputs.cache
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.AssemblyInfo.cs
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.csproj.CoreCompileInputs.cache
+D:\GitHub\DHERPSOLUATION\xunit\Core.xUnit\obj\Debug\net8.0\Core.xUnit.sourcelink.json

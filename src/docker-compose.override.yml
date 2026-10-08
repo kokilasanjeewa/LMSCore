@@ -1,0 +1,66 @@
+version: '3.4'
+
+services:
+  coredb:
+    container_name: coredb
+    environment:
+        SA_PASSWORD: "Sqlserver2019"
+        ACCEPT_EULA: "Y"
+        MSSQL_PID: "Express"
+    restart: always
+    ports:
+      - "1436:1433"
+    volumes:
+      - ./data:/var/opt/mssql/data
+      - ./log:/var/opt/mssql/log
+      - ./secrets:/var/opt/mssql/secrets
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+  core.webapi:
+    container_name: core.webapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8004
+      # - ASPNETCORE_HTTPS_PORTS=8001
+      - ASPNETCORE_URLS=http://+:8004
+      # - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      # - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      # - "CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=coredb;Database=CoreDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+    depends_on:
+      - coredb
+    ports:
+      - "6003:8004"
+      - "6063:8004"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  ocelotapigateway:
+    container_name: ocelotapigateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8003
+      - ASPNETCORE_HTTPS_PORTS=8003
+    ports:
+      - "7003:8003"
+      - "7063:8003"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  rabbitmq:
+    container_name: rabbitmq
+  hcm.webapi:
+    container_name: hcm.webapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8002
+      - ASPNETCORE_URLS=http://+:8002
+      # - ASPNETCORE_HTTPS_PORTS=8081
+      - "CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=192.168.1.209;Database=HCMDB;User Id=sa;Password=Sqlserver2019;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+    depends_on:
+      - coredb 
+    ports:
+      - "9003:8002"
+      - "9063:8002"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro

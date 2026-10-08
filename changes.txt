@@ -1,0 +1,14 @@
+ 
+// Generic Controllers Get By ID
+/*      [HttpGet("{id}")]
+       public virtual async Task<ActionResult<TGetDto>> Get(int id)
+       {
+           var keyType = typeof(TEntity).GetProperty("Id")?.PropertyType;
+           object key = Convert.ChangeType(id, keyType);
+
+           var entity = await _context.Set<TEntity>().FindAsync(key);
+           if (entity == null) return NotFound();
+
+           var dto = _mapper.Map<TGetDto>(entity);
+           return Ok(dto);
+       }*/

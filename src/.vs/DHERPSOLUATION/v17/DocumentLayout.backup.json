@@ -1,0 +1,857 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\city\\getcitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\city\\getcitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\common\\dtos\\formoptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\common\\dtos\\formoptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\configarations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\configarations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\costcentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\costcentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|d:\\github\\lms\\coresoluation\\src\\services\\commonlibrary\\constants\\menupermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|solutionrelative:services\\commonlibrary\\constants\\menupermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.persistence\\repositories\\approvalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|solutionrelative:services\\core\\core.persistence\\repositories\\approvalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\approval\\approvalactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\approval\\approvalactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|d:\\github\\lms\\coresoluation\\src\\services\\commonlibrary\\permission\\multiplepermissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|solutionrelative:services\\commonlibrary\\permission\\multiplepermissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|d:\\github\\lms\\coresoluation\\src\\services\\commonlibrary\\permission\\authorizemultiplepermissionsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|solutionrelative:services\\commonlibrary\\permission\\authorizemultiplepermissionsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|d:\\github\\lms\\coresoluation\\src\\services\\commonlibrary\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FDD9FA-5CA9-4AA2-A266-F535C58765DF}|Services\\CommonLibrary\\JwtTokenAuthentication.csproj|solutionrelative:services\\commonlibrary\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.persistence\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|solutionrelative:services\\core\\core.persistence\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|solutionrelative:services\\core\\core.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\users\\commands\\updateuser\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\users\\commands\\updateuser\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\costcenter\\getcostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\costcenter\\getcostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\users\\queries\\gettokenbylogin\\gettokenbyloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\users\\queries\\gettokenbylogin\\gettokenbyloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|solutionrelative:services\\core\\core.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.persistence\\repositories\\costcenterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D778D141-A7C1-437B-95BC-DEC6A3FA15DC}|Services\\Core\\Core.Persistence\\Core.Persistence.csproj|solutionrelative:services\\core\\core.persistence\\repositories\\costcenterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\interfaces\\repositories\\icostcenterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\interfaces\\repositories\\icostcenterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\costcenter\\command\\deletecostcentercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\costcenter\\command\\deletecostcentercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\costcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\costcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\costcenter\\command\\deletecostcentervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\costcenter\\command\\deletecostcentervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\configarations\\costcenterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\configarations\\costcenterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\costcenter\\updatecostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\costcenter\\updatecostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\costcenter\\createcostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\costcenter\\createcostcenterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\executeapprovalactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\executeapprovalactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\interfaces\\repositories\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\interfaces\\repositories\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\companies\\command\\createcompanycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\companies\\command\\createcompanycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\approvalworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\approvalworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\approvalstepapprover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\approvalstepapprover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\approvalrequeststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\approvalrequeststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\approvalstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\approvalstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\dtos\\approval\\approvalsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\dtos\\approval\\approvalsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\createworkflowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\createworkflowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\updateworkflowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\updateworkflowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\updateworkflowcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\updateworkflowcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\createworkflowcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\createworkflowcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\common\\mappings\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\common\\mappings\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\entitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\entitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.application\\features\\approval\\command\\approveworkflowcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A01537-FCC7-4A33-9E9D-2707A8A64904}|Services\\Core\\Core.Application\\Core.Application.csproj|solutionrelative:services\\core\\core.application\\features\\approval\\command\\approveworkflowcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.webapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3300467-C104-4429-9DB7-11AFC16435E9}|Services\\Core\\Core.WebAPI\\Core.WebAPI.csproj|solutionrelative:services\\core\\core.webapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|d:\\github\\lms\\coresoluation\\src\\services\\core\\core.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF28C66-8D40-4D19-A231-F2F9AAD61A3D}|Services\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:services\\core\\core.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormOptionHelper.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Common\\Dtos\\FormOptionHelper.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Common\\Dtos\\FormOptionHelper.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Common\\Dtos\\FormOptionHelper.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Common\\Dtos\\FormOptionHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T18:08:59.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountryConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Configarations\\CountryConfiguration.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Configarations\\CountryConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Configarations\\CountryConfiguration.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Configarations\\CountryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:33:56.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\CountryController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:20:54.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApprovalService.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\ApprovalService.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Persistence\\Repositories\\ApprovalService.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\ApprovalService.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Persistence\\Repositories\\ApprovalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T01:19:04.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorizeMultiplePermissionsAttribute.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Permission\\AuthorizeMultiplePermissionsAttribute.cs",
+              "RelativeDocumentMoniker": "Services\\CommonLibrary\\Permission\\AuthorizeMultiplePermissionsAttribute.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Permission\\AuthorizeMultiplePermissionsAttribute.cs",
+              "RelativeToolTip": "Services\\CommonLibrary\\Permission\\AuthorizeMultiplePermissionsAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:15:05.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuPermissions.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Constants\\MenuPermissions.cs",
+              "RelativeDocumentMoniker": "Services\\CommonLibrary\\Constants\\MenuPermissions.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Constants\\MenuPermissions.cs",
+              "RelativeToolTip": "Services\\CommonLibrary\\Constants\\MenuPermissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcGAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T09:57:23.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetCityDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\City\\GetCityDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\City\\GetCityDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\City\\GetCityDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\City\\GetCityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:12:20.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\appsettings.Development.json",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T09:37:22.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CostCenterController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CostCenterController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\CostCenterController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CostCenterController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\CostCenterController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:38:34.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\CityController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\CityController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywCkAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:15:42.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApprovalActionDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalActionDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalActionDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalActionDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalActionDto.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:35:53.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApprovalController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\ApprovalController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\ApprovalController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\ApprovalController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\ApprovalController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:52:27.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MultiplePermissionAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Permission\\MultiplePermissionAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CommonLibrary\\Permission\\MultiplePermissionAuthorizationHandler.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Permission\\MultiplePermissionAuthorizationHandler.cs",
+              "RelativeToolTip": "Services\\CommonLibrary\\Permission\\MultiplePermissionAuthorizationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:36:27.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\CommonLibrary\\Services\\TokenService.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\CommonLibrary\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\CommonLibrary\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:36:27.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Persistence\\Extensions\\IServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Persistence\\Extensions\\IServiceCollectionExtensions.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:15:35.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAEwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:46:12.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAxwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:39:07.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\appsettings.json",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-14T18:19:43.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Program.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Program.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAvwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:12:40.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T18:38:25.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CostCenterRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\CostCenterRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Persistence\\Repositories\\CostCenterRepository.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Persistence\\Repositories\\CostCenterRepository.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Persistence\\Repositories\\CostCenterRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:10:07.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICostCenterRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Interfaces\\Repositories\\ICostCenterRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Interfaces\\Repositories\\ICostCenterRepository.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Interfaces\\Repositories\\ICostCenterRepository.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Interfaces\\Repositories\\ICostCenterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:09:19.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteCostCenterValidator.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterValidator.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterValidator.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:03:17.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeleteCostCenterCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\CostCenter\\Command\\DeleteCostCenterCommand.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:02:54.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateCostCenterDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\UpdateCostCenterDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\UpdateCostCenterDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\UpdateCostCenterDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\UpdateCostCenterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:51:20.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetCostCenterDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\GetCostCenterDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\GetCostCenterDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\GetCostCenterDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\GetCostCenterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:51:08.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateCostCenterDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\CreateCostCenterDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\CreateCostCenterDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\CostCenter\\CreateCostCenterDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\CostCenter\\CreateCostCenterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:49:04.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CostCenterConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Configarations\\CostCenterConfiguration.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Configarations\\CostCenterConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Configarations\\CostCenterConfiguration.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Configarations\\CostCenterConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:43:34.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CostCenter.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\CostCenter.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\CostCenter.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\CostCenter.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\CostCenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:41:34.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApprovalRequestStep.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalRequestStep.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\ApprovalRequestStep.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalRequestStep.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\ApprovalRequestStep.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T03:06:28.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetTokenByLoginQuery.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Users\\Queries\\GetTokenByLogin\\GetTokenByLoginQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Users\\Queries\\GetTokenByLogin\\GetTokenByLoginQuery.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Users\\Queries\\GetTokenByLogin\\GetTokenByLoginQuery.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Users\\Queries\\GetTokenByLogin\\GetTokenByLoginQuery.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA0wCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:57:03.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApprovalStepApprover.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalStepApprover.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\ApprovalStepApprover.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalStepApprover.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\ApprovalStepApprover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:40:19.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApprovalWorkflow.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalWorkflow.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\ApprovalWorkflow.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalWorkflow.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\ApprovalWorkflow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:08:10.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ExecuteApprovalActionCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\ExecuteApprovalActionCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\ExecuteApprovalActionCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\ExecuteApprovalActionCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\ExecuteApprovalActionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T05:12:53.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IApprovalService.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Interfaces\\Repositories\\IApprovalService.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Interfaces\\Repositories\\IApprovalService.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Interfaces\\Repositories\\IApprovalService.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Interfaces\\Repositories\\IApprovalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:31:17.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApprovalSubmitDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalSubmitDto.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalSubmitDto.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalSubmitDto.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\DTOs\\Approval\\ApprovalSubmitDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:36:59.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IMapFrom.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Common\\Mappings\\IMapFrom.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Common\\Mappings\\IMapFrom.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Common\\Mappings\\IMapFrom.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Common\\Mappings\\IMapFrom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T04:38:13.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T04:37:50.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateUserCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Users\\Commands\\UpdateUser\\UpdateUserCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Users\\Commands\\UpdateUser\\UpdateUserCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Users\\Commands\\UpdateUser\\UpdateUserCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Users\\Commands\\UpdateUser\\UpdateUserCommand.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAxwBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T04:09:22.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateWorkFlowCommandValidator.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommandValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommandValidator.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommandValidator.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:01:29.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateWorkFlowCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\UpdateWorkFlowCommand.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:54:35.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateCompanyCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Companies\\Command\\CreateCompanyCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Companies\\Command\\CreateCompanyCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Companies\\Command\\CreateCompanyCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Companies\\Command\\CreateCompanyCommand.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:52:07.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ApproveWorkFlowCreatedEvent.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\ApproveWorkFlowCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\ApproveWorkFlowCreatedEvent.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\ApproveWorkFlowCreatedEvent.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\ApproveWorkFlowCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:00:52.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\CurrencyController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\CurrencyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T14:57:01.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwHcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T14:53:31.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApprovalStep.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalStep.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\ApprovalStep.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\ApprovalStep.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\ApprovalStep.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:09:38.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EntityType.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\EntityType.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\EntityType.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\EntityType.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\EntityType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:07:47.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Domain\\Entities\\Company.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:06:49.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateWorkFlowCommandValidator.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommandValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommandValidator.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommandValidator.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommandValidator.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA7wFAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:47:01.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateWorkFlowCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommand.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommand.cs",
+              "RelativeToolTip": "Services\\Core\\Core.Application\\Features\\Approval\\Command\\CreateWorkFlowCommand.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAmwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:44:35.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Services\\Core\\Core.WebAPI\\Controllers\\CompanyController.cs",
+              "ToolTip": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.WebAPI\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Services\\Core\\Core.WebAPI\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:42:06.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
