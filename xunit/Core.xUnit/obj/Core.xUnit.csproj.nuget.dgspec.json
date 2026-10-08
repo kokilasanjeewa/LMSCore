@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\LMS\\CoreSoluation\\xunit\\Core.xUnit\\Core.xUnit.csproj": {}
+    "D:\\GitHub\\LMS\\BackEnd\\xunit\\Core.xUnit\\Core.xUnit.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Core.Application.csproj": {
+    "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Core.Application.csproj",
+        "projectPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\Kokila Sanjeewa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\obj\\",
+        "outputPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kokila Sanjeewa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,8 +30,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj"
+              "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj": {
+    "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectUniqueName": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\Core.Domain.csproj",
         "packagesPath": "C:\\Users\\Kokila Sanjeewa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Domain\\obj\\",
+        "outputPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kokila Sanjeewa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,14 +176,14 @@
         }
       }
     },
-    "D:\\GitHub\\LMS\\CoreSoluation\\xunit\\Core.xUnit\\Core.xUnit.csproj": {
+    "D:\\GitHub\\LMS\\BackEnd\\xunit\\Core.xUnit\\Core.xUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\LMS\\CoreSoluation\\xunit\\Core.xUnit\\Core.xUnit.csproj",
+        "projectUniqueName": "D:\\GitHub\\LMS\\BackEnd\\xunit\\Core.xUnit\\Core.xUnit.csproj",
         "projectName": "Core.xUnit",
-        "projectPath": "D:\\GitHub\\LMS\\CoreSoluation\\xunit\\Core.xUnit\\Core.xUnit.csproj",
+        "projectPath": "D:\\GitHub\\LMS\\BackEnd\\xunit\\Core.xUnit\\Core.xUnit.csproj",
         "packagesPath": "C:\\Users\\Kokila Sanjeewa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\LMS\\CoreSoluation\\xunit\\Core.xUnit\\obj\\",
+        "outputPath": "D:\\GitHub\\LMS\\BackEnd\\xunit\\Core.xUnit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kokila Sanjeewa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,8 +202,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "D:\\GitHub\\LMS\\CoreSoluation\\src\\Services\\Core\\Core.Application\\Core.Application.csproj"
+              "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "D:\\GitHub\\LMS\\BackEnd\\src\\Services\\Core\\Core.Application\\Core.Application.csproj"
               }
             }
           }
